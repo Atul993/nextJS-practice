@@ -1,7 +1,11 @@
-import React from 'react'
+import Link from "next/link";
 
 export default function page() {
   return (
-    <h1>Welcome home!</h1>
-  )
+    <>
+      <h1>Welcome home!</h1>
+      <Link href="/blog">Blog</Link>
+      <Link href="/product">Products</Link>
+    </>
+  );
 }
